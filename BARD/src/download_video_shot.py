@@ -92,10 +92,10 @@ def extract_mp4_urls(url):
     return all_mp4_urls, cookies, user_agent
     
 # Path to your CSV
-csv_path = '../dataset/shot_dataset.csv'
+csv_path = './BARD/dataset/shot_dataset.csv'
 
 # Directory to save the downloaded files
-output_dir = '../data/shot'
+output_dir = './BARD/data/shot'
 
 os.makedirs(output_dir, exist_ok=True)
 

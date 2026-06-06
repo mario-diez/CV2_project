@@ -34,7 +34,8 @@ def copy_files(file_list, destination_folder):
 
     print(f"Successfully copied {len(file_list)} files to {destination_folder}")
 
-
+print(shot_list)
+print(no_shot_list)
 shot_train, shot_val, shot_test = split_data(shot_list)
 no_shot_train, no_shot_val, no_shot_test = split_data(no_shot_list)
 
