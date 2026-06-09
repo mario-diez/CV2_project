@@ -2,3 +2,5 @@ data/*
 BARD/data
 venv/*
 artifacts/*
+*.zip
+*.pt

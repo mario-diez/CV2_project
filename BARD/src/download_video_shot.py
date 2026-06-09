@@ -100,7 +100,7 @@ output_dir = './BARD/data/shot'
 os.makedirs(output_dir, exist_ok=True)
 
 # Load CSV
-df = pd.read_csv(csv_path, sep=';')
+df = pd.read_csv(csv_path, sep=';').sample(200)
 
 # Download each URL as an MP4
 for counter, url in enumerate(df['urls'], start=1):
